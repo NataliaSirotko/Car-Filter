@@ -4,6 +4,7 @@
 body {
     background: url('images/48.jpg') repeat-y center 170px;
     background-size: 100% auto;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
@@ -55,7 +56,7 @@ ul input {
 .card {
     width: 530px;
     height: 420px;
-    border: 5px solid palegreen;
+    border: 5px solid lightgreen;
     border-radius: 20px;
     margin-bottom: 50px;
     padding: 10px;
