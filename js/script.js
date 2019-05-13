@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function main() {
         card.innerHTML = 
             `<h3>${myObj.cars[key].name}</h3> 
             <div>${myObj.cars[key].description}</div> 
-            <div>price: ${myObj.cars[key].price}</div>
+            <div>Price: ${myObj.cars[key].price}</div>
             <div>Category: ${myObj.cars[key].category}</div>
             <img src = ${myObj.cars[key].img}>`;
         
