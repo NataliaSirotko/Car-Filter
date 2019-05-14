@@ -2,14 +2,15 @@
     margin: 0;
 }
 body {
-    background: url('images/48.jpg') repeat-y center 170px;
+    background: url('images/48.jpg') repeat-y center 100px;
     background-size: 100% auto;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    height: 170px;
+    height: 100px;
     background-color: black;
+    position: re
 }
 header h1  {
     color: palegreen;
@@ -18,7 +19,7 @@ header h1  {
     font-style: italic;
     font-weight: bold;
     font-size: 32pt;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 h1 span {
     color: white;
@@ -29,7 +30,7 @@ main ul {
 }
 main form {
     position: fixed;
-    top: 250px;
+    top: 190px;
 }
 ul h4 {
     margin-bottom: 20px;
